@@ -1,0 +1,72 @@
+img{
+    border-radius: 50%;
+    height: 300px;
+    width: 280px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(223, 245, 245);
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: #000;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(220, 241, 247);
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid rgb(41, 88, 116);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(212, 237, 243);
+}
+legend{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: left;
+    color:  #000;
+}
+legend+p{
+    margin-top: 0;
+}
+legend{
+    padding-bottom: 0;
+}
+p{
+    padding-top: 0;
+    line-height: 0.4;
+}
+
+#toggle-button{
+    width: 40%;
+    display:block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: rgb(212, 237, 243);
+    color: #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#toggle-button:hover{
+    background-color: rgb(168, 219, 247);
+
+}
