@@ -1,0 +1,82 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20;
+    padding: 0;
+    background-color:rgb(144, 186, 241);
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(181, 207, 241);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(12, 12, 185);
+    padding:20px;
+}
+fieldset{
+    border: 2px solid #4c7fdd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:rgb(185, 217, 238);
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+label{
+    font-display: block;
+    margin-top: 10px;
+    color: black;
+}
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(56, 117, 250);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(121, 170, 245);
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button:hover {
+    background-color: rgb(151, 203, 233);
+}
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(124, 181, 214); 
+    border-radius: 8px;
+    background-color: rgb(117, 169, 236);
+    box-shadow: 0 4px 8px rgb(123, 164, 238);
+}
+#resumeOutput h2{
+    color: rgb(66, 64, 38);
+}
+
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: solid rgb(51, 53, 32);
+    box-shadow: 0 4px 8px rgb(0, 0, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+}
